@@ -150,10 +150,8 @@
           <div class="value">${state}</div>
         </div>` : ''}
         <div class="step">
-          <strong>Next step:</strong><br/>
-          Run this command in your terminal:<br/><br/>
-          <code>cd /Users/tungthai/Desktop/openclaw</code><br/>
-          <code>python3 auth_tiktok.py --code <strong>${code}</strong></code>
+          <strong>Bước tiếp:</strong> trong thư mục dự án OpenClaw (đã cấu hình <code>.env</code> với <code>TIKTOK_REDIRECT_URI</code> trùng URL trang này), chạy:<br/><br/>
+          <code>python3 auth_tiktok.py --code "<strong>${code}</strong>"</code>
         </div>
       `;
     } else {
